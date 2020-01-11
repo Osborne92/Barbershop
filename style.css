@@ -1,36 +1,53 @@
 body {
-    background-image: url("Photos/rough-black.jpg");
-  }
-  .navbar {
-    background-image: url("Photos/rough-black.jpg");
-    color: white;
-   }
+  background-image: url("Photos/rough-black.jpg");
+}
+.navbar {
+  background-image: url("Photos/rough-black.jpg");
+}
 
-   p .contact-description {
-       color: white;
-   }
+p .contact-description {
+  color: white;
+}
 
-   .navlink a {
-    color: white;
-   }
+.dropdown-item {
+  color: white;
+}
 
-   .nav.navbar-nav li a {
-    color: #fff;
-  }
+.nav-link, .navbar-brand {
+  color: white;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: rgb(216, 10, 10);
+ }
 
 .carousel-title {
-    margin: 50% 0; 
+  margin: 50% 0; 
 }
 
 .carousel-title h1 {
-font-size: 3em; 
+  font-size: 3em; 
 }
 
-  .card-img {
-      height: 10vw;
-  }
+.card-img {
+  height: 10vw;
+}
 
-  h1, h2, h5, a {
-      color: white;
-  } 
+.card-title {
+  color: black;
+}
+
+.sec-description {
+  color: white;
+}
+
+.btn-primary {
+  background-color: rgb(216, 10, 10) !important;
+  border-color: black !important;
+}
+
+
+h1, h2, h5, a {
+  color: white;
+} 
   

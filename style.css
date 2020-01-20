@@ -34,12 +34,18 @@ p .contact-description {
   font-size: 3em; 
 }
 
+.card {
+  border: none;
+  color: white; 
+  background-image: url("Photos/rough-black.jpg");
+}
+
 .card-img {
   height: 10vw;
 }
 
 .card-title {
-  color: black;
+  color: white; 
 }
 
 .sec-description {

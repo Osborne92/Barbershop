@@ -60,5 +60,9 @@ p .contact-description {
 
 h1, h2, h5, a {
   color: white;
-} 
+}
+
+label, p {
+  color: white;
+}
   

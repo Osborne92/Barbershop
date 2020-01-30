@@ -41,14 +41,16 @@ p .contact-description {
 }
 
 .card {
-  border: none;
-  z-index: 0;
+  border: white;
+  z-index: 1;
+  /* padding: 5em 0 5em 0; */
 }
 
 .card-body {
   /* opacity: 0; */
-  z-index: 0;
+  z-index:  0;
   position: absolute;
+  border: tomato;
 }
 
 .card-text, .card-title {
@@ -80,15 +82,15 @@ p .contact-description {
 .btn-primary {
   background-color: rgb(216, 10, 10) !important;
   border-color: black !important;
+  color: white !important
 }
-
 
 h1, h2, h5, a {
   color: white;
 }
 
-label, p {
-  color: black;
+p, label {
+  color: white
 }
 
 #Contact {

@@ -133,15 +133,42 @@ label, p {
 
 @media only screen and (max-width: 600px) {
   .card-text, .card-title {
-    margin-top: 7.5em;
+    margin-top: 8.5em;
   }
   .card {
     margin-top: 5em;
   }
-  #Products {
+  #About, #Products {
     margin: .5em 0 -1.5em 0;
   }
   .second-deck {
     padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 7.5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 5.5em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 3.5em;
   }
 }

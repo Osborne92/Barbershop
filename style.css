@@ -1,5 +1,7 @@
 body {
   background-image: url("Photos/rough-black.jpg");
+  z-index: 1;
+  position: relative;
 }
 .navbar {
   background-image: url("Photos/rough-black.jpg");
@@ -34,18 +36,41 @@ p .contact-description {
   font-size: 3em; 
 }
 
+.second-deck {
+  padding-top: 5rem;
+}
+
 .card {
   border: none;
-  color: white; 
-  background-image: url("Photos/rough-black.jpg");
+  z-index: 0;
+}
+
+.card-body {
+  /* opacity: 0; */
+  z-index: 0;
+  position: absolute;
+}
+
+.card-text, .card-title {
+  z-index: 1;
+  margin-top: 5.5em;
+  color: white;
 }
 
 .card-img {
   height: 10vw;
 }
 
+.card-img-top {
+  z-index: 2;
+}
+
 .card-title {
   color: white; 
+}
+
+.about-title {
+  margin: 10em 0 2.5em 0;
 }
 
 .sec-description {
@@ -63,6 +88,60 @@ h1, h2, h5, a {
 }
 
 label, p {
-  color: white;
+  color: black;
 }
-  
+
+#Contact {
+  margin-top: 8em;
+}
+
+@media only screen and (max-width: 1200px) {
+  .second-deck {
+    padding-top: 7rem;
+  }
+  .card-text, .card-title {
+    margin-top: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .second-deck {
+    padding-top: 8rem;
+  }
+  .card-text, .card-title {
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .second-deck {
+    padding-top: 13rem;
+  }
+  .card-text, .card-title {
+    margin-top: 2em;
+  }
+  .about-title {
+    margin: 5em 0 3em 0;
+  }
+  #Products {
+    margin-top: 5em;
+  }
+  #Contact {
+    margin-top: 12em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-text, .card-title {
+    margin-top: 7.5em;
+  }
+  .card {
+    margin-top: 5em;
+  }
+  #Products {
+    margin: .5em 0 -1.5em 0;
+  }
+  .second-deck {
+    padding-top: 0;
+  }
+}
